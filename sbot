@@ -29,6 +29,7 @@ def main():
 		'weather': utils.weather,
 		'ohno': utils.ohno,
 		'ohyes': utils.ohyes,
+		'bonk': utils.bonk,
 
 		'timer': timer.timer,
 

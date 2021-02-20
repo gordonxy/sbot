@@ -157,3 +157,7 @@ def ohno(cmd):
 def ohyes(cmd):
 	url = 'https://www.raylu.net/f/ohyes/ohyes%02d.gif' % random.randint(1, 19)
 	cmd.reply('', {'image': {'url': url}})
+
+def bonk(cmd):
+	url = 'https://cdn.discordapp.com/attachments/392610407350534144/812642884418273291/9k.png'
+	cmd.reply('', {'image': {'url': url}})
